@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error(error));
-function Weather()
 return (
     <div className="Weather">
            <h2>How is today's weather?</h2> 
